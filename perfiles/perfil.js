@@ -56,13 +56,6 @@ const perfiles = {
     descripcion: "Geógrafo, MSc. en Gestion Ambiental, Estudiante de PhD. en Ciencias Ambientales.",
     texto: "Carlos Romero es geógrafo con especialización en gestión ambiental y estudios de doctorado en ciencias ambientales. Ha trabajado en proyectos de evaluación ambiental y planificación territorial, asesorando a organismos públicos y privados. Carlos destaca por su capacidad de análisis y su compromiso con la sostenibilidad. Ha participado en investigaciones sobre cambio climático y adaptación, y en la elaboración de políticas ambientales. Su objetivo es contribuir al desarrollo de soluciones innovadoras para los desafíos ambientales actuales."
   },
-  antonia_flores: {
-    nombre: "Antonia Flores",
-    imagen: "../assets/img/team/antonia.png",
-    contacto: "antonia.flores@alumnos.upla.cl",
-    descripcion: "Estudiante de la Carrera de geografía, Universidad de Playa Ancha.",
-    texto: "Antonia Flores es estudiante de geografía interesada en el análisis ambiental y la planificación territorial. Ha participado en proyectos universitarios relacionados con la gestión de recursos naturales y la educación ambiental. Antonia busca aplicar sus conocimientos en iniciativas que promuevan el desarrollo sostenible y la protección del medio ambiente. Su entusiasmo y dedicación la han llevado a colaborar en actividades de extensión y voluntariado. Cree en la importancia de la formación continua y el trabajo en equipo para enfrentar los desafíos ambientales."
-  },
   yael_aguirre: {
     nombre: "Yael Aguirre",
     imagen: "../assets/img/team/Yael_aguirre.jpg",
