@@ -15,19 +15,12 @@ fetch('noticias.json')
       <div style="color: #888; margin-bottom: 1em; text-align: center;">
         ${new Date(noticia.fecha).toLocaleDateString('es-CL', { year: 'numeric', month: 'long', day: 'numeric' })} • Autor: ${noticia.autor}
       </div>
+      <h1 style="text-align:center;text-justify:auto;">${noticia.titulo}</h1>
+      <h3 style="text-align:center;text-justify:auto;">${noticia.subtitulo}</h3>
+      <div style="text-align:center;"><img src="${noticia.imagen}" alt="Imagen noticia" style="max-width:400px;width:100%;height:auto;margin:1em 0;display:inline-block;"></div>
+      <div style="text-align:center;margin-top:2em;">
+        <a href="${noticia.url}" target="_blank" style="color: rgb(5, 138, 247); text-decoration: none; font-weight: bold;">Ver noticia original</a>
+      </div>
     `;
-    noticia.contenido.forEach(bloque => {
-      if (bloque.tipo === 'titulo') {
-        html += `<h1 style="text-align:center;text-justify:auto;">${bloque.texto}</h1>`;
-      } else if (bloque.tipo === 'subtitulo') {
-        html += `<h3 style="text-align:center;text-justify:auto;">${bloque.texto}</h3>`;
-      } else if (bloque.tipo === 'parrafo') {
-        html += `<p style="text-align:justify;margin-left:auto;margin-right:auto;max-width:700px;">${bloque.texto}</p>`;
-      } else if (bloque.tipo === 'imagen') {
-        // Asegura que la ruta sea absoluta desde la raíz
-        let imgSrc = bloque.src.startsWith('/') ? bloque.src : '/' + bloque.src;
-        html += `<div style="text-align:center;"><img src="${imgSrc}" alt="${bloque.alt || ''}" style="max-width:400px;width:100%;height:auto;margin:1em 0;display:inline-block;"></div>`;
-      }
-    });
     main.innerHTML = html;
   });

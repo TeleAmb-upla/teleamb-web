@@ -102,33 +102,60 @@ href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
 fetch('noticias/noticias.json')
   .then(res => res.json())
   .then(noticias => {
+    // Ordenar por fecha descendente (más reciente primero)
+    noticias.sort((a, b) => new Date(b.fecha) - new Date(a.fecha));
     const grid = document.getElementById('news-grid');
-    noticias.forEach(noticia => {
-      const titulo = noticia.contenido.find(b => b.tipo === 'titulo')?.texto || '';
-      const parrafoCompleto = noticia.contenido.find(b => b.tipo === 'parrafo')?.texto || '';
-      const parrafo = parrafoCompleto.split(' ').slice(0, 9).join(' ') + (parrafoCompleto.split(' ').length > 9 ? '...' : '');
-      const imagen = noticia.contenido.find(b => b.tipo === 'imagen')?.src || '';
-      const alt = noticia.contenido.find(b => b.tipo === 'imagen')?.alt || '';
-      const art = document.createElement('article');
-      art.className = 'news-article';
-      art.innerHTML = `
-        <img src="${imagen}" alt="${alt}" class="news-image">
-        <div class="news-content">
-          <h4 class="news-headline">${titulo}</h4>
-          <p class="news-excerpt">${parrafo}</p>
-          <div class="news-meta">
-            <time datetime="${noticia.fecha}">${new Date(noticia.fecha).toLocaleDateString('es-CL', { year: 'numeric', month: 'long', day: 'numeric' })}</time>
-            • Autor: ${noticia.autor}
+    const maxVisible = 6;
+    let verMasBtn = null;
+
+    function renderNoticias(visibleCount) {
+      grid.innerHTML = '';
+      noticias.slice(0, visibleCount).forEach(noticia => {
+        const art = document.createElement('article');
+        art.className = 'news-article';
+        art.innerHTML = `
+          <img src="${noticia.imagen}" alt="Imagen noticia" class="news-image">
+          <div class="news-content">
+            <h4 class="news-headline">${noticia.titulo}</h4>
+            <p class="news-excerpt">${noticia.subtitulo}</p>
+            <div class="news-meta">
+              <time datetime="${noticia.fecha}">${new Date(noticia.fecha).toLocaleDateString('es-CL', { year: 'numeric', month: 'long', day: 'numeric' })}</time>
+              • Autor: ${noticia.autor}
+            </div>
+            <div class="news-read-more">
+              <a href="${noticia.url}" target="_blank" style="color: rgb(5, 138, 247); text-decoration: none; font-weight: bold;">
+                Leer más ➔
+              </a>
+            </div>
           </div>
-          <div class="news-read-more">
-            <a href="noticias/cont_noticias.html?id=${noticia.id}" style="color: rgb(5, 138, 247); text-decoration: none; font-weight: bold;">
-              Leer más ➔
-            </a>
-          </div>
-        </div>
-      `;
-      grid.appendChild(art);
-    });
+        `;
+        grid.appendChild(art);
+      });
+    }
+
+    function addVerMasButton() {
+      verMasBtn = document.createElement('button');
+      verMasBtn.textContent = 'Ver más';
+      verMasBtn.className = 'btn btn-primary';
+      verMasBtn.style.display = 'block';
+      verMasBtn.style.margin = '3em auto 2em auto';
+      verMasBtn.style.fontSize = '1.2rem';
+      verMasBtn.style.padding = '1.3em 3.5em';
+      verMasBtn.style.backgroundColor = '#058af7';
+      verMasBtn.style.borderRadius = '18px';
+      verMasBtn.style.fontWeight = 'bold';
+      verMasBtn.style.letterSpacing = '1px';
+      verMasBtn.onclick = () => {
+        renderNoticias(noticias.length);
+        verMasBtn.remove();
+      };
+      grid.parentNode.insertBefore(verMasBtn, grid.nextSibling);
+    }
+
+    renderNoticias(maxVisible);
+    if (noticias.length > maxVisible) {
+      addVerMasButton();
+    }
   });
 </script>
     <!-- ======= Instituciones Section ======= -->

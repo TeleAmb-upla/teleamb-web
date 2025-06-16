@@ -1,49 +1,106 @@
 [
   {
-    "id": "nieve_2025",
-    "contenido": [
-      { "tipo": "titulo", "texto": "TeleAmb UPLA instala sistemas de monitoreo de nieve para estudiar los recursos hídricos en el país" },
-      { "tipo": "parrafo", "texto": "El Laboratorio de Teledetección Ambiental (TeleAmb) de la Universidad de Playa Ancha realizó una campaña de instalación de equipos de monitoreo en zonas nevadas durante marzo, como parte del proyecto “Observatorio Satelital de Nieves”, financiado por el programa FONDEF IT." },
-      { "tipo": "parrafo", "texto": "El equipo de investigación, parte del Hub Ambiental y la carrera de Geografía de la Universidad de Playa Ancha (UPLA), desplegó modernos sistemas de monitoreo autónomo en cuatro locaciones de difícil acceso." },
-      { "tipo": "parrafo", "texto": "Las jornadas se llevaron a cabo en Aconcagua, Elqui, Nevados de Chillán y de Sollipulli, cuyas instalaciones permitirán obtener datos precisos sobre el estado de las reservas de nieve y glaciares, fundamentales para el abastecimiento hídrico del país." },
-      { "tipo": "imagen", "src": "assets/img/noticias/nieve/Aconcagua_Carlos_Romero_Equipo_Instalado.png", "alt": "Equipo instalado" },
-      { "tipo": "parrafo", "texto": "Así lo expresa el geólogo y asistente de Investigación TeleAmb UPLA, Javier Medina Mendoza, quien sostiene que “los sensores instalados combinan medidores de temperatura y LiDAR (Detección y Medición de Distancia por Luz) para obtener datos en tiempo real la altura de la nieve y su derretimiento”." },
-      { "tipo": "parrafo", "texto": "Medina afirmó que “estos datos son esenciales para validar los algoritmos que desarrollaremos con imágenes del satélite Sentinel-1 SAR, con el fin de calcular con precisión el equivalente en agua de la nieve (SWE). Esto nos permitirá entender mejor cómo varían las reservas hídricas en diferentes regiones del país, lo que permitirá ajustar los modelos de manera más precisa”." },
-      { "tipo": "parrafo", "texto": "En tanto, el geógrafo e investigador del proyecto, Dr. Alexis Caro Paredes, profundizó en la innovación tecnológica detrás de la iniciativa, explicando que “instalamos cámaras con paneles solares en seis cuencas, desde el Elqui hasta Baker. Estos dispositivos capturarán imágenes diarias de la cobertura nival (Snow Cover Area), incluso cuando los satélites fallan por la presencia de nubosidad”." },
-      { "tipo": "parrafo", "texto": "Puntualizó el investigador que “la idea es utilizar satélites con sensores no ópticos como MODIS, sino que midan la altura de la nieve mediante pulsos. Estos datos, captados tras eventos de nevadas y durante el derretimiento, se validarán con información de la Dirección General de Aguas (DGA) y otros colaboradores. Toda esta información se integrará en una plataforma para mejorar el monitoreo satelital y las proyecciones hídricas”." },
-      { "tipo": "parrafo", "texto": "Por su lado, el geógrafo y estudiante postdoctoral asociado al proyecto, Carlos Romero González, enfatizó en el desafío logístico que implica este proyecto, destacando que “trabajamos en condiciones extremas, con equipos probados en laboratorio para garantizar su fiabilidad. La colaboración con Centro de Estudios Avanzados en Zonas Áridas (CEAZA), la Universidad de La frontera (UFRO), Corporación Nacional Forestal (CONAF) y actores locales fue vital. Próximamente, instalaremos sensores en zonas críticas como el Cristo Redentor (Aconcagua) y el Elqui, de gran relevancia productiva y social para el país”." },
-      { "tipo": "subtitulo", "texto": "Capacitación clave en Elqui" },
-      { "tipo": "parrafo", "texto": "La campaña comenzó el 11 de marzo en el Embalse La Laguna (Elqui), donde los investigadores Javier Medina Mendoza y Carlos Romero González participaron en una capacitación con expertos de CEAZA, entre ellos Cristian Orrego, coordinador del grupo de Sistemas de Telemetría CEAZAmet." },
-      { "tipo": "parrafo", "texto": "Esta formación fue esencial para el correcto manejo de los equipos meteorológicos que, posteriormente, se instalarían." },
-      { "tipo": "subtitulo", "texto": "Validación técnica en Aconcagua" },
-      { "tipo": "parrafo", "texto": "Al día siguiente, el miércoles 12 de marzo, un equipo de cuatro investigadores —liderados por Medina— realizó las primeras pruebas de instalación cerca de la estación DGA en el Camino Internacional Los Andes-Mendoza. Esta zona fronteriza es considerada crítica para el estudio de los recursos hídricos que abastecen a la zona central del país." },
-      { "tipo": "imagen", "src": "assets/img/noticias/nieve/Chillan_Instalacion_Equipo.png", "alt": "Nevados de Sollipulli" },
-      { "tipo": "subtitulo", "texto": "Expedición extrema a Nevados de Chillán" },
-      { "tipo": "parrafo", "texto": "Los días 19 y 20 de marzo, los investigadores Alexis Caro Paredes y Carlos Romero González enfrentaron uno de los desafíos más complejos: un desplazamiento de 10 kilómetros a 2000 metros de altura en la zona volcánica de los Nevados de Chillán." },
-      { "tipo": "parrafo", "texto": "En el sector Shangri-La del Valle Las Trancas, instalaron un nodo fotográfico que permitirá monitorear los cambios en la cobertura nival. Este trabajo se coordinó en colaboración con el académico de la Universidad de Concepción, Dr. Alfonso Fernández Rivera." },
-      { "tipo": "subtitulo", "texto": "Campaña en la zona sur" },
-      { "tipo": "parrafo", "texto": "La campaña del 28 de marzo consistió en la instalación de un dispositivo en los Nevados de Sollipulli, complementando así la red de monitoreo en el sur del país. Esta iniciativa se realizó en colaboración con el Observatorio de Recursos Hídricos de La Araucanía Kimün-Ko de la UFRO, liderado por el Dr. Mauricio Zambrano-Bigiarin, y contó con el apoyo en terreno de Héctor Garcés, memorista de Ingeniería Civil. La información obtenida será clave para entender el acelerado retroceso glaciar que afecta a la zona." },
-      { "tipo": "parrafo", "texto": "Los datos obtenidos por estos equipos autónomos, combinados con imágenes satelitales, permitirán desarrollar modelos más precisos sobre la disponibilidad de agua y los efectos del cambio climático en nuestras reservas naturales." }
-    ],
+
+    "url": "https://www.upla.cl/noticias/2025/05/13/investigadores-de-teleamb-upla-instalan-tecnologia-clave-en-cerro-castillo-para-monitorear-la-nieve-y-clima/",
+    "imagen": "/assets/img/noticias/cerro_castillo.jpg",
     "fecha": "2025-04-24",
-    "autor": "Manuel N. Arregui"
+    "autor": "Manuel N. Arregui",
+    "titulo": "TeleAmb UPLA instala sistemas de monitoreo de nieve para estudiar los recursos hídricos en el país",
+    "subtitulo": "El Laboratorio de Teledetección Ambiental (TeleAmb) de la Universidad de Playa Ancha realizó una campaña de instalación de equipos de monitoreo en zonas nevadas durante marzo."
   },
   {
-    "id": "ceaza_2024",
-    "contenido": [
-      { "tipo": "titulo", "texto": "Investigadores de TeleAmb UPLA fortalecen colaboración con CEAZA para el monitoreo de nieve" },
-      { "tipo": "parrafo", "texto": "La instancia se llevó a cabo a mediados de diciembre como parte de la consolidación del Observatorio Satelital de Nieves, iniciativa que estudiará la nieve a nivel nacional con el propósito de entender este recurso y su impacto en la disponibilidad de agua actual. Por Marcela Zavala y Manuel N. Arregui." },
-      { "tipo": "parrafo", "texto": "La semana pasada, investigadores del Laboratorio de Teledetección Ambiental de la Universidad de Playa Ancha (TeleAmb UPLA) viajaron a La Serena para reunirse con investigadores del Centro de Estudios Avanzados en Zonas Áridas (CEAZA). Esta visita, realizada en el marco del proyecto FONDEF IT 24I0092 “Consolidación del Observatorio Satelital de Nieve”, busca mejorar el monitoreo satelital de nieve en Chile y comprender mejor su relación con los recursos hídricos a escala nacional y en 6 cuencas piloto. El encuentro fue llevado a cabo por una delegación del equipo TeleAmb, integrada por el Dr. Alexis Caro y la Dra(c). Ana Hernández-Duarte –con el apoyo del académico UPLA, Mg. Marcelo Leguía Cruz–, quienes trabajaron junto a la Dra. Shelley MacDonell y el ingeniero Cristian Orrego, representantes CEAZA. Durante la visita, los investigadores acudieron a las estaciones meteorológicas de la red de monitoreo de la DGA y de CEAZA-met, encontradas en la zona alta de la cuenca río Elqui, donde se estudian las variables hidrometeorológicas clave como la temperatura, precipitación y nieve." },
-      { "tipo": "imagen", "src": "assets/img/noticias/estaciones_ceaza_n1.jpg", "alt": "CEAZA estación" },
-      { "tipo": "parrafo", "texto": "La Académica e Investigadora del TeleAmb UPLA, Dra(c). Ana Hernández-Duarte, señala que el objetivo del proyecto Fondef IT es consolidar un observatorio satelital de nieve que “entregue información sobre su cobertura a escala nacional y su equivalencia en agua en seis cuencas relevantes asociadas a las cuatro macrozonas hidro-climáticas de Chile”." },
-      { "tipo": "parrafo", "texto": "Con un financiamiento de $226.000.000 otorgado por Agencia Nacional de Investigación y Desarrollo (ANID), la iniciativa está desarrollando un sitio web que pondrá a disposición toda información satelital detallada sobre la nieve y su equivalencia en agua. En palabras de Hernández, la plataforma “proporcionará datos fundamentales que permitirán desarrollar modelos más precisos de disponibilidad de los recursos hídricos, apoyando decisiones estratégicas en su planificación y gestión a nivel nacional”." },
-      { "tipo": "parrafo", "texto": "En este contexto, la visita adquiere un significado especial al enfocarse en la cordillera de la Región de Coquimbo que, según el investigador del proyecto, Dr. Alexis Caro, posee características únicas debido a que “las precipitaciones concentradas en invierno se almacenan en forma de manto de nieve en los Andes, el cual se derrite progresivamente durante la primavera. Este deshielo es el principal responsable del mayor volumen de agua transportado por los ríos (con un caudal máximo en diciembre) y almacenado en embalses como La Laguna y Puclaro, en la cuenca del río Elqui”." },
-      { "tipo": "parrafo", "texto": "“Nuestra colaboración con los investigadores del CEAZA es fundamental para conocer los procesos que reducen la cantidad de nieve almacenada como son la sublimación y el derretimiento, y también para conocer las necesidades de la comunidad”, agrega." },
-      { "tipo": "parrafo", "texto": "El proyecto Observatorio Satelital de Nieve, liderado por TeleAmb –parte del HUB Ambiental UPLA–, está bajo la dirección del Dr. Freddy Saavedra Pimentel y cuenta con el respaldo de la Dirección General de Aguas (DGA). Esta iniciativa involucra a seis equipos de investigación nacional (dentro de ellos CEAZA) que trabajan en cuencas ubicadas en diversas zonas climáticas de Chile, abarcando desde el río Elqui en la Región de Coquimbo hasta el río Baker en la Región de Aysén del General Carlos Ibáñez del Campo." },
-      { "tipo": "imagen", "src": "assets/img/noticias/nieve/n1_grupo.jpg", "alt": "CEAZA estación" }
-    ],
+
+    "url": "https://www.upla.cl/noticias/2024/12/19/investigadores-de-teleamb-upla-fortalecen-colaboracion-con-ceaza-para-el-monitoreo-de-nieve/",
+    "imagen": "/assets/img/noticias/estaciones_ceaza.jpg",
     "fecha": "2024-12-19",
-    "autor": "Manuel N. Arregui"
-  }
+    "autor": "Manuel N. Arregui",
+    "titulo": "Investigadores de TeleAmb UPLA fortalecen colaboración con CEAZA para el monitoreo de nieve",
+    "subtitulo": "La instancia se llevó a cabo a mediados de diciembre como parte de la consolidación del Observatorio Satelital de Nieves."
+  },
+  {
+ "url" :"https://www.upla.cl/noticias/2024/10/24/chillan-destacada-participacion-upla-en-congreso-nacional-e-internacional-de-geografia-2024/",
+ "imagen": "/assets/img/noticias/congreso_chillan.jpg",
+ "fecha": "2024-10-15 ",
+  "autor": "Manuel N. Arregui",
+  "titulo": "UPLA destaca en Congreso Nacional e Internacional de Geografía 2024",
+  "subtitulo": "La Universidad de Playa Ancha participó con una destacada delegación en el Congreso Nacional e Internacional de Geografía 2024, realizado en Chillán, donde se presentaron investigaciones y proyectos innovadores."
+  },
+  {
+    "url": "https://www.upla.cl/noticias/2024/09/09/con-exito-concluye-el-curso-genius-sobre-monitoreo-satelital-para-la-planificacion-urbana/",
+    "imagen": "/assets/img/noticias/Curso_genius.png",
+    "fecha": "2024-09-09",
+    "autor": "Manuel N. Arregui",
+    "titulo": "Con éxito concluye el curso Genius sobre monitoreo satelital para la planificación urbana",
+    "subtitulo": "El curso, impartido por el Laboratorio de Teledetección Ambiental (TeleAmb) de la UPLA, reunió a profesionales y estudiantes interesados en el uso de tecnologías satelitales para la planificación urbana."
+
+  },
+  {
+    "url" : "https://www.upla.cl/noticias/2024/08/19/universidad-de-playa-ancha-lidera-adjudicaciones-de-la-macrozona-centro-de-fondef-it-2024/",
+    "imagen": "/assets/img/noticias/macrozona_centro.jpg",
+    "fecha": "2024-08-19",
+    "autor": "Constanza Lobo Sánchez",
+    "titulo": "UPLA lidera adjudicaciones de la Macrozona Centro de Fondef IT 2024",
+    "subtitulo": "La Universidad de Playa Ancha se posiciona como líder en la adjudicación de proyectos de investigación y desarrollo tecnológico en la Macrozona Centro, destacando su compromiso con la innovación y el avance científico en Chile."
+  },
+
+{
+ "url" : "https://www.upla.cl/noticias/2024/08/09/teleamb-upla-y-dga-consolidan-observatorio-satelital-de-nieves-con-adjudicacion-de-fondef-it-2024/",
+    "imagen": "/assets/img/noticias/observatorio_nieves_2024.jpg",
+    "fecha": "2024-08-09",
+    "autor": "Manuel N. Arregui",
+    "titulo": "TeleAmb UPLA y DGA consolidan Observatorio Satelital de Nieves con adjudicación de Fondef IT 2024",
+    "subtitulo": "El Laboratorio de Teledetección Ambiental (TeleAmb) de la Universidad de Playa Ancha, junto a la Dirección General de Aguas (DGA), ha sido adjudicado un proyecto para fortalecer el monitoreo satelital de nieves en Chile."
+
+},
+{
+ "url" : "https://www.upla.cl/noticias/2024/06/05/teleamb-upla-marca-presencia-en-el-vi-congreso-de-la-sociedad-chilena-de-la-criosfera/",
+    "imagen": "/assets/img/noticias/congreso_puntarenas.jpg",
+    "fecha": "2024-06-05",
+    "autor": "Manuel N. Arregui",
+    "titulo": "TeleAmb UPLA marca presencia en el VI Congreso de la Sociedad Chilena de la Criósfera",
+    "subtitulo": "El Laboratorio de Teledetección Ambiental (TeleAmb) de la Universidad de Playa Ancha participó activamente en el VI Congreso de la Sociedad Chilena de la Criósfera, presentando investigaciones sobre el monitoreo satelital de nieves."
+},
+{
+
+  "url" :"https://www.upla.cl/noticias/2023/05/09/universidad-de-playa-ancha-monitoreara-satelitalmente-situacion-urbano-ambiental-de-quilpue/",
+  "imagen": "/assets/img/noticias/quilpue.jpg",
+  "fecha": "2023-05-09",
+  "autor": "",
+  "titulo": "UPLA monitoreará satelitalmente situación urbano-ambiental de Quilpué",
+  "subtitulo": "El Laboratorio de Teledetección Ambiental (TeleAmb) de la Universidad de Playa Ancha ha iniciado un proyecto para monitorear la situación urbano-ambiental de Quilpué, utilizando tecnologías satelitales avanzadas."
+
+},
+
+{
+ "url" : "https://www.upla.cl/noticias/2023/05/03/invitan-a-participar-en-seminario-sobre-plataforma-de-monitoreo-satelital-de-ciudades/",
+  "imagen": "/assets/img/noticias/seminario_plataforma.png",
+  "fecha": "2023-05-03",
+  "autor": "",
+  "titulo": "Invitan a participar en seminario sobre plataforma de monitoreo satelital de ciudades",
+  "subtitulo": "El Laboratorio de Teledetección Ambiental (TeleAmb) de la UPLA invita a un seminario para presentar su plataforma de monitoreo satelital, que busca mejorar la planificación urbana y la gestión ambiental en las ciudades chilenas."
+},
+{
+"url" :" https://www.upla.cl/noticias/2023/04/18/dr-freddy-saavedra-participa-en-reunion-de-organizacion-meteorologica-mundial/",
+"imagen": "/assets/img/noticias/worshop_internacional.jpg",
+"fecha": "2023-04-18",
+"autor": "", 
+"titulo": "Dr. Freddy Saavedra participa en reunión de la Organización Meteorológica Mundial",
+"subtitulo": "El Dr. Freddy Saavedra, director del Laboratorio de Teledetección Ambiental (TeleAmb) de la UPLA, participó en una reunión de la Organización Meteorológica Mundial (OMM) para discutir avances en el monitoreo ambiental y climático a nivel global."
+},
+{
+  "url": "https://www.upla.cl/noticias/2023/03/22/expertos-internacionales-en-monitoreo-satelital-de-oceanos-se-reunen-en-la-upla/",
+  "imagen": "/assets/img/noticias/oceanos_internacional.jpg",
+  "fecha": "2023-03-22",
+  "autor": "",
+  "titulo": "Expertos internacionales en monitoreo satelital de océanos se reúnen en la UPLA",
+  "subtitulo": "El Laboratorio de Teledetección Ambiental (TeleAmb) de la Universidad de Playa Ancha fue sede de un encuentro internacional que reunió a expertos en monitoreo satelital de océanos, destacando la importancia de la colaboración científica en la investigación marina."
+}
+
+
+
+
+
+
+
 ]
 
