@@ -24,7 +24,9 @@ fetch('noticias.json')
       } else if (bloque.tipo === 'parrafo') {
         html += `<p style="text-align:justify;margin-left:auto;margin-right:auto;max-width:700px;">${bloque.texto}</p>`;
       } else if (bloque.tipo === 'imagen') {
-        html += `<div style="text-align:center;"><img src="${bloque.src}" alt="${bloque.alt || ''}" style="max-width:400px;width:100%;height:auto;margin:1em 0;display:inline-block;"></div>`;
+        // Asegura que la ruta sea absoluta desde la raíz
+        let imgSrc = bloque.src.startsWith('/') ? bloque.src : '/' + bloque.src;
+        html += `<div style="text-align:center;"><img src="${imgSrc}" alt="${bloque.alt || ''}" style="max-width:400px;width:100%;height:auto;margin:1em 0;display:inline-block;"></div>`;
       }
     });
     main.innerHTML = html;
