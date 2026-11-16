@@ -1,0 +1,7 @@
+data/
+.cache/
+*.log
+__pycache__/
+*.pyc
+# Material local (no publicar)
+_local/

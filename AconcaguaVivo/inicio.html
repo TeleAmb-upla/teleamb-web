@@ -1,15 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-T2GK59WCK3"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-T2GK59WCK3');
-</script>
+<html lang="es">
 
 <head>
   <meta charset="utf-8">
@@ -19,8 +9,8 @@
   <meta name="keywords" content="">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon-32x32.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="assets/av/img/favicon-32x32.png" rel="icon">
+  <link href="assets/av/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
@@ -28,14 +18,22 @@
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/av/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/av/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/av/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/av/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/av/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <!-- Main CSS File -->
-  <link href="assets/css/main.css" rel="stylesheet">
+  <link href="assets/av/css/main.css" rel="stylesheet">
+  <style>
+    .hero .btn-get-started.btn-explorer-hero {
+      margin-left: 14px;
+      font-weight: 700;
+      box-shadow: 0 8px 24px rgba(95, 207, 128, 0.35);
+    }
+    .hero .btn-get-started.btn-explorer-hero i { margin-right: 6px; }
+  </style>
 
   <!-- =======================================================
   * Template Name: Mentor
@@ -51,9 +49,8 @@
   <header id="header" class="header d-flex align-items-center sticky-top">
     <div class="container-fluid container-xl position-relative d-flex align-items-center">
 
-      <a href="index.html" class="logo d-flex align-items-center me-auto">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
-        <img src="assets/img/logo Aconcagua 613x613.png" alt=""> 
+      <a href="inicio.html" class="logo d-flex align-items-center me-auto">
+        <img src="assets/av/img/logo Aconcagua 613x613.png" alt="">
         <h1 class="sitename">Aconcagua Vivo</h1>
       </a>
 
@@ -64,12 +61,12 @@
           <li><a href="actividades.html">Actividades</a></li>
           <li><a href="equipo.html">Equipo</a></li>
           <li><a href="cronograma.html">Cronograma</a></li>
+          <li><a href="explorador.html">Explorador</a></li>
           <li><a href="contacto.html">Contacto</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
-
-      <a class="btn-getstarted" href="courses.html">Regístrate</a>
+<a class="btn-getstarted btn-explorer" href="explorador.html"><i class="bi bi-map"></i>Explorador</a>
 
     </div>
   </header>
@@ -79,156 +76,186 @@
     <!-- Hero Section -->
     <section id="hero" class="hero section dark-background">
 
-      <img src="assets/img/esclerofilo.png" alt="" data-aos="fade-in">
+      <img src="assets/av/img/hero-aconcagua.jpg" alt="Bosque y estero en la cuenca media del Aconcagua" data-aos="fade-in">
 
       <div class="container">
         <h2 data-aos="fade-up" data-aos-delay="100">Aconcagua Vivo</h2>
         <p data-aos="fade-up" data-aos-delay="200">Programa participativo para reconocer, valorizar y promover<br>la biodiversidad local
         de la cuenca media del Aconcagua.</p>
         <div class="d-flex mt-4" data-aos="fade-up" data-aos-delay="300">
-          <a href="courses.html" class="btn-get-started">Regístrate</a>
+          <a href="contacto.html" class="btn-get-started">Contacto</a>
+          <a href="explorador.html" class="btn-get-started btn-explorer-hero"><i class="bi bi-map"></i>Explorador</a>
         </div>
       </div>
 
     </section><!-- /Hero Section -->
-
-    
 
     <!-- Counts Section -->
     <section id="counts" class="section counts light-background">
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-        <div class="row gy-4">
-
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item text-center w-100 h-100">
-              <span data-purecounter-start="0" data-purecounter-end="300" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Beneficiarios directos</p>
+        <div class="counts-band">
+          <div class="counts-band__head">
+            <h3>Actividades comprometidas</h3>
+          </div>
+          <div class="row gy-4">
+            <div class="col-lg-1-5 col-md-4 col-6">
+              <div class="stats-item text-center w-100 h-100">
+                <span data-purecounter-start="0" data-purecounter-end="300" data-purecounter-duration="1" class="purecounter"></span>
+                <p>Beneficiarios directos</p>
+              </div>
             </div>
-          </div><!-- End Stats Item -->
-
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item text-center w-100 h-100">
-              <span data-purecounter-start="0" data-purecounter-end="+50" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Registros de biodiversidad georreferenciados</p>
+            <div class="col-lg-1-5 col-md-4 col-6">
+              <div class="stats-item text-center w-100 h-100">
+                <span data-purecounter-start="0" data-purecounter-end="60" data-purecounter-duration="1" class="purecounter"></span>
+                <p>Registros de biodiversidad georreferenciados</p>
+              </div>
             </div>
-          </div><!-- End Stats Item -->
-
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item text-center w-100 h-100">
-              <span data-purecounter-start="0" data-purecounter-end="5" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Áreas intervenidas</p>
+            <div class="col-lg-1-5 col-md-4 col-6">
+              <div class="stats-item text-center w-100 h-100">
+                <span data-purecounter-start="0" data-purecounter-end="5" data-purecounter-duration="1" class="purecounter"></span>
+                <p>Áreas intervenidas</p>
+              </div>
             </div>
-          </div><!-- End Stats Item -->
-
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item text-center w-100 h-100">
-              <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Talleres</p>
+            <div class="col-lg-1-5 col-md-4 col-6">
+              <div class="stats-item text-center w-100 h-100">
+                <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" class="purecounter"></span>
+                <p>Talleres</p>
+              </div>
             </div>
-          </div><!-- End Stats Item -->
-        
+            <div class="col-lg-1-5 col-md-4 col-6">
+              <div class="stats-item text-center w-100 h-100">
+                <span data-purecounter-start="0" data-purecounter-end="5" data-purecounter-duration="1" class="purecounter"></span>
+                <p>Charlas de expertos</p>
+              </div>
+            </div>
+          </div>
         </div>
 
-      </div>
-    <!-- Clients Section -->
-    <section id="clients" class="clients section">
-
-      <div class="container">
-
-        <div class="swiper init-swiper">
-          <script type="application/json" class="swiper-config">
-            {
-              "loop": true,
-              "speed": 600,
-              "autoplay": {
-                "delay": 5000
-              },
-              "slidesPerView": "auto",
-              "pagination": {
-                "el": ".swiper-pagination",
-                "type": "bullets",
-                "clickable": true
-              },
-              "breakpoints": {
-                "320": {
-                  "slidesPerView": 2,
-                  "spaceBetween": 40
-                },
-                "480": {
-                  "slidesPerView": 3,
-                  "spaceBetween": 60
-                },
-                "640": {
-                  "slidesPerView": 4,
-                  "spaceBetween": 80
-                },
-                "992": {
-                  "slidesPerView": 6,
-                  "spaceBetween": 120
-                }
-              }
-            }
-          </script>
-          <div class="swiper-wrapper align-items-center">
-            <div class="swiper-slide"><img src="assets/img/logo/LOGO UPLA_tr.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/logo/LOGO TELEAMB.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/logo/LOGO HERBARIO.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/logo/Logo GORE.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/logo/Logo CORE.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/logo/LOGO ERI_tra.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/logo/LOGO MUNI LA CALERA.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/logo/LOGO MUNI LA CRUZ.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/logo/LOGO MUNI NOGALES.png" class="img-fluid" alt=""></div>
+        <div class="counts-band counts-band--done">
+          <div class="counts-band__head">
+            <h3>Actividades realizadas</h3>
+          </div>
+          <div class="row gy-4">
+            <div class="col-lg-1-5 col-md-4 col-6">
+              <div class="stats-item text-center w-100 h-100">
+                <span data-purecounter-start="0" data-purecounter-end="550" data-purecounter-duration="1" class="purecounter"></span>
+                <p>Beneficiarios directos</p>
+              </div>
+            </div>
+            <div class="col-lg-1-5 col-md-4 col-6">
+              <div class="stats-item text-center w-100 h-100">
+                <span data-purecounter-start="0" data-purecounter-end="143" data-purecounter-duration="1" class="purecounter"></span>
+                <p>Registros de biodiversidad georreferenciados</p>
+              </div>
+            </div>
+            <div class="col-lg-1-5 col-md-4 col-6">
+              <div class="stats-item text-center w-100 h-100">
+                <span data-purecounter-start="0" data-purecounter-end="7" data-purecounter-duration="1" class="purecounter"></span>
+                <p>Áreas intervenidas</p>
+              </div>
+            </div>
+            <div class="col-lg-1-5 col-md-4 col-6">
+              <div class="stats-item text-center w-100 h-100">
+                <span data-purecounter-start="0" data-purecounter-end="27" data-purecounter-duration="1" class="purecounter"></span>
+                <p>Talleres</p>
+              </div>
+            </div>
+            <div class="col-lg-1-5 col-md-4 col-6">
+              <div class="stats-item text-center w-100 h-100">
+                <span data-purecounter-start="0" data-purecounter-end="5" data-purecounter-duration="1" class="purecounter"></span>
+                <p>Charlas de expertos</p>
+              </div>
+            </div>
           </div>
         </div>
 
       </div>
 
-    </section><!-- /Clients Section -->
+      <!-- Clients Section -->
+      <section id="clients" class="clients section">
+
+        <div class="container">
+
+          <div class="swiper init-swiper">
+            <script type="application/json" class="swiper-config">
+              {
+                "loop": true,
+                "speed": 600,
+                "autoplay": {
+                  "delay": 5000
+                },
+                "slidesPerView": "auto",
+                "pagination": {
+                  "el": ".swiper-pagination",
+                  "type": "bullets",
+                  "clickable": true
+                },
+                "breakpoints": {
+                  "320": {
+                    "slidesPerView": 2,
+                    "spaceBetween": 40
+                  },
+                  "480": {
+                    "slidesPerView": 3,
+                    "spaceBetween": 60
+                  },
+                  "640": {
+                    "slidesPerView": 4,
+                    "spaceBetween": 80
+                  },
+                  "992": {
+                    "slidesPerView": 6,
+                    "spaceBetween": 120
+                  }
+                }
+              }
+            </script>
+            <div class="swiper-wrapper align-items-center">
+              <div class="swiper-slide"><img src="assets/av/img/logo/LOGO UPLA_tr.png" class="img-fluid" alt=""></div>
+              <div class="swiper-slide"><img src="assets/av/img/logo/LOGO TELEAMB.png" class="img-fluid" alt=""></div>
+              <div class="swiper-slide"><img src="assets/av/img/logo/LOGO HERBARIO.png" class="img-fluid" alt=""></div>
+              <div class="swiper-slide"><img src="assets/av/img/logo/Logo GORE.png" class="img-fluid" alt=""></div>
+              <div class="swiper-slide"><img src="assets/av/img/logo/Logo CORE.png" class="img-fluid" alt=""></div>
+              <div class="swiper-slide"><img src="assets/av/img/logo/LOGO ERI_tra.png" class="img-fluid" alt=""></div>
+              <div class="swiper-slide"><img src="assets/av/img/logo/LOGO MUNI LA CALERA.png" class="img-fluid" alt=""></div>
+              <div class="swiper-slide"><img src="assets/av/img/logo/LOGO MUNI LA CRUZ.png" class="img-fluid" alt=""></div>
+              <div class="swiper-slide"><img src="assets/av/img/logo/LOGO MUNI NOGALES.png" class="img-fluid" alt=""></div>
+            </div>
+          </div>
+
         </div>
 
-      </div>
-
-    </section><!-- /Clients Section -->
+      </section><!-- /Clients Section -->
 
     </section><!-- /Counts Section -->
 
-      
-
-    
   </main>
 
   <footer id="footer" class="footer position-relative light-background">
 
-         
-   <div class="container footer-top">
-
+    <div class="container footer-top">
 
       <div class="container">
         <div class="row">
-         <div class="col-lg-4 col-md-6">  
-          <a href="index.html" class="logo d-flex align-items-center">
-           <img class="img-responsive img-circle" src="assets/img/logo Aconcagua 200x200.png" width="100" height="100" alt=""/>
-           <h2 class="sitename">Aconcagua Vivo</h2>
-          </a>
+          <div class="col-lg-4 col-md-6">
+            <a href="inicio.html" class="logo d-flex align-items-center">
+              <img class="img-responsive img-circle" src="assets/av/img/logo Aconcagua 200x200.png" width="100" height="100" alt=""/>
+              <h2 class="sitename">Aconcagua Vivo</h2>
+            </a>
+          </div>
 
-         </div>
+          <div class="col-lg-3 col-md-6">
+            <p>
+              Subida Leopoldo Carvallo 270,<br>
+              2360004 Playa Ancha <br>
+              Valparaíso, Chile<br><br>
+              <strong>Email:</strong> <a href="mailto:aconcaguavivo@upla.cl">aconcaguavivo@upla.cl</a> <br>
+              <strong>Phone:</strong> +56 32 220 5265<br>
+            </p>
+          </div>
 
-
-       <div class="col-lg-3 col-md-6">  
-              <p>
-                Subida Leopoldo Carvallo 270,<br>
-                2360004 Playa Ancha <br>
-                Valparaíso, Chile<br><br>
-                <strong>Email:</strong>  aconcaguavivo@upla.cl <br>
-                <strong>Phone:</strong> +56 32 220 5265<br>
-              </p>
-        </div>
-          
-
-          
           <div class="col-lg-2 col-md-6 footer-links">
             <h4>ENLACES DE UTILIDAD</h4>
             <ul>
@@ -236,35 +263,33 @@
               <li><a href="actividades.html">Actividades</a></li>
               <li><a href="equipo.html">Equipo</a></li>
               <li><a href="cronograma.html">Cronograma</a></li>
-             
+              <li><a href="explorador.html">Explorador</a></li>
             </ul>
           </div>
 
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>OTROS ENLACES</h4>
             <ul>
-              <li><a href="https://www.upla.cl">Universidad de Playa Ancha</a>
-              <li><a href="https://upla.cl/facultad/cienciasnaturalesyexactas">Facultad de Ciencias Naturales y Exactas</a>
-              <li><a href="https://teleamb.cl">TeleAmb</a>
-              <li><a href="https://herbarioupla.cl/">Herbario VALPL</a>
+              <li><a href="https://www.upla.cl">Universidad de Playa Ancha</a></li>
+              <li><a href="https://upla.cl/facultad/cienciasnaturalesyexactas">Facultad de Ciencias Naturales y Exactas</a></li>
+              <li><a href="https://teleamb.cl">TeleAmb</a></li>
+              <li><a href="https://herbarioupla.cl/">Herbario VALPL</a></li>
             </ul>
           </div>
 
           <div class="container">
-           <div class="row">
-             <div class="col-md-4 d-flex justify-content-center align-items-center"> 
-              <img class="img-responsive img-circle" src="assets/img/logo/LOGO UPLA_tr.png" width="250" height="100" alt=""/>
-                
+            <div class="row">
+              <div class="col-md-4 d-flex justify-content-center align-items-center">
+                <img class="img-responsive img-circle" src="assets/av/img/logo/LOGO UPLA_tr.png" width="250" height="100" alt=""/>
+              </div>
+              <div class="col-md-4 d-flex justify-content-center align-items-center">
+                <img class="img-responsive img-circle" src="assets/av/img/logo/LOGO TELEAMB.png" width="200" height="100" alt=""/>
+              </div>
+              <div class="col-md-4 d-flex justify-content-center align-items-center">
+                <img class="img-responsive img-circle" src="assets/av/img/logo/LOGO HERBARIO.png" width="200" height="90" alt=""/>
+              </div>
             </div>
-
-            <div class="col-md-4 d-flex justify-content-center align-items-center"> 
-             <img class="img-responsive img-circle" src="assets/img/logo/LOGO TELEAMB.png" width="200" height="100" alt=""/>
-                  
-            </div>
-
-            <div class="col-md-4 d-flex justify-content-center align-items-center"> 
-             <img class="img-responsive img-circle" src="assets/img/logo/LOGO HERBARIO.png" width="200" height="90" alt=""/>
-           </div>
+          </div>
         </div>
       </div>
     </div>
@@ -272,10 +297,6 @@
     <div class="container copyright text-center mt-4">
       <p>© <span>Copyright</span> <strong class="px-1 sitename">Mentor</strong> <span>All Rights Reserved</span></p>
       <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you've purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
         Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
       </div>
     </div>
@@ -289,15 +310,14 @@
   <div id="preloader"></div>
 
   <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/av/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/av/vendor/aos/aos.js"></script>
+  <script src="assets/av/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/av/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/av/vendor/swiper/swiper-bundle.min.js"></script>
 
   <!-- Main JS File -->
-  <script src="assets/js/main.js"></script>
+  <script src="assets/av/js/main.js"></script>
 
 </body>
 
